@@ -1,0 +1,121 @@
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+section h1, section h3 {
+	margin: 0;
+}
+
+section {
+	overflow: hidden;
+}
+
+.main-nav {
+	position: absolute;
+	display: flex;
+	left: 15%;
+	top: 50px;
+	width: 500px;
+	height: 50px;
+}
+
+.main-nav a {
+	color: black;
+	text-decoration: none;
+	margin-right: 30px;
+	font-size: 1.7em;
+	transition: color 0.2s ease-in-out;
+}
+
+.main-nav a:hover {
+	color: rgb(80, 180, 200);
+}
+
+.main-nav a:visited {
+	text-decoration: none;
+}
+
+.faded-moon {
+	position: absolute;
+	opacity: 0.35;
+	z-index: -99;
+	top: 100px;
+	left: 125px;
+	height: 425px;
+	width: 425px;
+	background-image: url("../assets/faded-moon.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.line {
+	position: absolute;
+	border-bottom: 1px solid black;
+	width: 150vw;
+	height: 1px;
+}
+
+.diagonal-1 {
+	top: 60px;
+	transform: rotate(40deg);
+}
+
+.diagonal-2 {
+	top: 450px;
+	right: 200px;
+	transform: rotate(40deg);
+}
+
+#hello-section {
+	height: 800px;
+	position: relative;
+}
+
+#hello-wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+#hello-header {
+	font-size: 15em;
+}
+
+#hello-inner-wrapper {
+	margin-left: 40%;
+	margin-top: 150px;
+}
+
+#welcome {
+	font-size: 1.92em;
+	position: relative;
+	bottom: 45px;
+}
+
+#welcome-wrapper {
+	position: absolute;
+	height: 10px;
+	margin-left: 16px;
+}
+
+.begin-scrolling {
+	position: absolute;
+	font-size: 2em;
+	top: 575px;
+	left: 55%;
+}
+
+#web-dev-section {
+	height: 800px;
+	width: 100%;
+	background-color: #333;
+}
+
+#graphic-design-section {
+	height: 800px;
+	width: 100%;
+	background-color: rgb(65, 10, 152);
+}
