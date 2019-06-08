@@ -54,7 +54,7 @@ section {
 
 .line {
 	position: absolute;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #a5a5a5;
 	width: 150vw;
 	height: 1px;
 }
@@ -109,9 +109,42 @@ section {
 }
 
 #web-dev-section {
+	position: relative;
 	height: 800px;
 	width: 100%;
-	background-color: #333;
+	background-color: #131727;
+}
+
+.web-header-wrapper {
+	text-align: center;
+	width: 1000px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#web-dev-header {
+	font-size: 7em;
+	color: white;
+}
+
+.dev-skills-container {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 1.5em;
+	color: white;
+}
+
+.dev-skills-container a {
+	text-decoration: none;
+	color: white;
+	transition: color .2s ease-in-out;
+}
+
+.dev-skills-container a:hover {
+	color: rgba(255, 255, 255, .5);
 }
 
 #graphic-design-section {
