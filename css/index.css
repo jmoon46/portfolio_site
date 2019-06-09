@@ -116,10 +116,21 @@ section {
 	color: white;
 }
 
+.p-wrapper {
+	width: 600px;
+	height: 200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.p-wrapper p {
+	font-size: 1.4em;
+}
+
 .web-header-wrapper {
 	text-align: center;
 	width: 1000px;
-	margin-top: 80px;
+	margin-top: 130px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -143,7 +154,25 @@ section {
 }
 
 .dev-skills-container a:hover {
-	color: rgba(255, 255, 255, .7) !important;
+	opacity: 0.5;
+}
+
+.project-link-container {
+	width: 240px;
+	height: 35px;
+	padding-top: 3px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.project-link-container a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.7em;
+}
+
+.project-link-container a:hover {
+	opacity: 0.5;
 }
 
 #graphic-design-section {

@@ -1,0 +1,47 @@
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+section {
+	width: 100%;
+	background-color: #333;
+	padding-bottom: 25px;
+}
+
+.main-nav {
+	width: 300px;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.4em;
+}
+
+.main-nav a:hover {
+	color: rgb(80, 180, 200);
+}
+
+#content-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.project-box {
+	background-color: red;
+	height: 450px;
+	margin: 15px;
+	min-width: 465px;
+}
