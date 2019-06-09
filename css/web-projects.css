@@ -1,4 +1,4 @@
-html, body {
+*, html, body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -9,13 +9,13 @@ html, body {
 section {
 	width: 100%;
 	background-color: #333;
-	padding-bottom: 25px;
+	padding: 20px 0;
 }
 
 .main-nav {
 	width: 300px;
 	margin: 0 auto;
-	padding: 30px;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -31,17 +31,84 @@ section {
 	color: rgb(80, 180, 200);
 }
 
+#headline-container {
+	margin: 0 auto;
+	text-align: center;
+	width: 500px;
+}
+
+h1 {
+	color: white;
+	font-size: 4em;
+	margin: 20px 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
 #content-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	max-width: 1200px;
 	margin: 0 auto;
+	padding-top: 5px;
 }
 
 .project-box {
 	background-color: red;
 	height: 450px;
 	margin: 15px;
-	min-width: 465px;
+	width: 500px;
+}
+
+.web-image {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 100%;
+}
+
+#bakery-site {
+	background-image: url("../assets/website-screenshots/bakery-site.png");
+}
+
+#react-site {
+	background-image: url("../assets/website-screenshots/react-site.png");
+}
+
+#ruby-site {
+	background-image: url("../assets/website-screenshots/ruby-site.png");
+}
+
+#github-screenshot {
+	background-image: url("../assets/website-screenshots/github-screenshot.png");
+}
+
+.description-box {
+	text-align: center;
+	background-color: white;
+	height: 150px;
+	width: 100%;
+}
+
+.box-info-container {
+	width: 100%;
+	padding: 20px;
+}
+
+.box-info-container p {
+
+}
+
+.description-headline {
+	padding-top: 20px;
+}
+
+h3 {
+	margin: 0;
+	font-size: 1.3em;
 }
