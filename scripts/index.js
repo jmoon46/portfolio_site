@@ -30,7 +30,7 @@ const pHash = {
 
 const webDevBackground = document.querySelector('#web-dev-section');
 const webDevButtons = document.querySelectorAll('.dev-skills-container > a');
-const webDevParagraph = document.querySelector('.p-wrapper > p');
+const webDevParagraph = document.querySelector('#web-dev-p');
 const webDevHeader = document.querySelector('#web-dev-header');
 const webProjectLink = document.querySelector('#web-project-link');
 
