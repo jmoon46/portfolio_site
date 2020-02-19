@@ -18,6 +18,7 @@ section h1, section h3 {
 
 section {
 	overflow: hidden;
+	min-height: 600px;
 }
 
 .main-nav {
@@ -77,7 +78,7 @@ section {
 }
 
 #hello-section {
-	height: 800px;
+	height: 100vh;
 	position: relative;
 }
 
@@ -121,7 +122,7 @@ section {
 
 #web-dev-section {
 	position: relative;
-	height: 800px;
+	height: 108vh;
 	width: 100%;
 	background-color: #131727;
 	color: white;
@@ -141,7 +142,7 @@ section {
 .web-header-wrapper {
 	text-align: center;
 	width: 1000px;
-	margin-top: 130px;
+	margin-top: 20vh;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -226,7 +227,7 @@ section {
 
 #graphic-header-wrapper {
 	margin: 0 auto;
-	padding-top: 100px;
+	padding-top: 20vh;
 	text-align: center;
 	width: 800px;
 }
