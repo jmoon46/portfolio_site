@@ -88,6 +88,10 @@ a {
 	width: 100%;
 }
 
+#music-app {
+	background-image: url("../assets/website-screenshots/music-app.png")
+}
+
 #bakery-site {
 	background-image: url("../assets/website-screenshots/bakery-site.png");
 }
@@ -116,8 +120,8 @@ a {
 	padding: 15px;
 }
 
-.box-info-container p {
-
+.box-info {
+	font-weight: 700;
 }
 
 .description-headline {
@@ -126,5 +130,5 @@ a {
 
 h3 {
 	margin: 0;
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
