@@ -132,3 +132,9 @@ h3 {
 	margin: 0;
 	font-size: 1.4em;
 }
+
+@media screen and (max-width: 600px) {
+    #headline-container {
+        width: auto;
+    }
+  }
