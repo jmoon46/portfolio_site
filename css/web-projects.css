@@ -136,5 +136,13 @@ h3 {
 @media screen and (max-width: 600px) {
     #headline-container {
         width: auto;
-    }
+	}
+
+	.box-info-container {
+		padding-top: 5px;
+	}
+	
+	.box-info {
+		font-size: .9em;
+	}
   }
