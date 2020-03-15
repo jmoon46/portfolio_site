@@ -257,17 +257,11 @@ section {
 	}
 
 	.diagonal-1 {
-		top: 170px;
-		left: -18px;
+		display: none;
 	}
 
 	.diagonal-2 {
-		top: 650px;
-		right: 40px;
-	}
-
-	.line {
-
+		display: none;
 	}
 
 	#hello-inner-wrapper {
