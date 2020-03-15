@@ -61,18 +61,18 @@ section {
 .line {
 	position: absolute;
 	border-bottom: 1px solid #a5a5a5;
-	width: 150vw;
+	width: 175vw;
 	height: 1px;
 }
 
 .diagonal-1 {
-	top: 60px;
+	top: 130px;
 	transform: rotate(40deg);
 }
 
 .diagonal-2 {
 	top: 450px;
-	right: 200px;
+	right: -2px;
 	transform: rotate(40deg);
 }
 
