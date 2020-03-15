@@ -3,22 +3,12 @@
 	100% {transform: rotate(360deg);}
 }
 
-
 html, body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-family: 'Roboto', sans-serif;
-}
-
-section h1, section h3 {
-	margin: 0;
-}
-
-section {
-	overflow: hidden;
-	min-height: 600px;
 }
 
 .main-nav {
@@ -44,6 +34,15 @@ section {
 
 .main-nav a:visited {
 	text-decoration: none;
+}
+
+section h1, section h3 {
+	margin: 0;
+}
+
+section {
+	overflow: hidden;
+	min-height: 600px;
 }
 
 .faded-moon {
@@ -111,7 +110,7 @@ section {
 .begin-scrolling {
 	position: absolute;
 	font-size: 2em;
-	top: 575px;
+	top: 540px;
 	left: 55%;
 }
 
@@ -141,7 +140,6 @@ section {
 
 .web-header-wrapper {
 	text-align: center;
-	width: 1000px;
 	margin-top: 20vh;
 	margin-left: auto;
 	margin-right: auto;
@@ -240,4 +238,94 @@ section {
 #design-p {
 	padding-top: 25px;
 	color: white;
+}
+
+@media screen and (max-width: 960px) {
+	.main-nav {
+		width: 200px;
+	}
+
+	.main-nav a {
+		margin-right: 45px;
+	}
+
+	.faded-moon {
+		height: 300px;
+		width: 300px;
+		top: 215px;
+		left: 60px;
+	}
+
+	.diagonal-1 {
+		top: 170px;
+		left: -18px;
+	}
+
+	.diagonal-2 {
+		top: 650px;
+		right: 40px;
+	}
+
+	.line {
+
+	}
+
+	#hello-inner-wrapper {
+		margin-left: 20%;
+		margin-top: 225px;
+	}
+
+	#hello-header {
+		font-size: 6.5em;
+	}
+
+	#welcome {
+		font-size: 1.5em;
+		bottom: 15px;
+		right: 8px;
+	}
+
+	.begin-scrolling {
+		width: 100%;
+		top: 550px;
+		left: 0;
+		text-align: center;
+		font-size: 1.8em;
+	}
+
+
+	#web-dev-header {
+		font-size: 3em;
+		margin-bottom: 15px;
+	}
+
+	.dev-skills-container {
+		font-size: 1.5em;
+		width: 90%;
+		margin: 0 auto;
+		height: auto;
+	}
+
+	.p-wrapper {
+		width: 90%;
+		height: auto;
+		font-size: .9em;
+	}
+
+
+	#graphic-header-wrapper {
+		width: auto;
+	}
+
+	#graphic-design-container {
+		min-width: auto;
+	}
+
+	#graphic-design-header {
+		font-size: 5em;
+	}
+
+	#design-p {
+		padding-top: 0;
+	}
 }
