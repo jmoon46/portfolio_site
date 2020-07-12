@@ -1,60 +1,62 @@
-*, html, body {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-family: 'Roboto', sans-serif;
+*,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 section {
-	width: 100%;
-	background-color: #333;
-	padding: 20px 0;
+  width: 100%;
+  background-color: #333;
+  padding: 20px 0;
 }
 
 .main-nav {
-	width: 300px;
-	margin: 0 auto;
-	padding: 20px;
-	text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
 
 .main-nav a {
-	text-decoration: none;
-	color: white;
-	margin-left: 10px;
-	margin-right: 10px;
-	font-size: 1.4em;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.4em;
 }
 
 .main-nav a:hover {
-	color: rgb(80, 180, 200);
+  color: rgb(80, 180, 200);
 }
 
 #headline-container {
-	margin: 0 auto;
-	text-align: center;
-	width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
 }
 
 h1 {
-	color: white;
-	font-size: 4em;
-	margin: 20px 0;
+  color: white;
+  font-size: 4em;
+  margin: 20px 0;
 }
 
 a {
-	color: black;
-	text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 #content-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 5px;
 }
 
 .overlay {
@@ -66,8 +68,8 @@ a {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: 0.5s ease;
+  background-color: #008cba;
 }
 
 .overlay:hover {
@@ -75,74 +77,78 @@ a {
 }
 
 .project-box {
-	height: 450px;
-	margin: 15px;
-	width: 500px;
+  height: 450px;
+  margin: 15px;
+  width: 500px;
 }
 
 .web-image {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 300px;
-	width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+#piano-app {
+  background-image: url('../assets/website-screenshots/piano.png');
 }
 
 #music-app {
-	background-image: url("../assets/website-screenshots/music-app.png")
+  background-image: url('../assets/website-screenshots/music-app.png');
 }
 
 #bakery-site {
-	background-image: url("../assets/website-screenshots/bakery-site.png");
+  background-image: url('../assets/website-screenshots/bakery-site.png');
 }
 
 #react-site {
-	background-image: url("../assets/website-screenshots/react-site.png");
+  background-image: url('../assets/website-screenshots/react-site.png');
 }
 
 #ruby-site {
-	background-image: url("../assets/website-screenshots/ruby-site.png");
+  background-image: url('../assets/website-screenshots/ruby-site.png');
 }
 
 #github-screenshot {
-	background-image: url("../assets/website-screenshots/github-screenshot.png");
+  background-image: url('../assets/website-screenshots/github-screenshot.png');
 }
 
 .description-box {
-	text-align: center;
-	background-color: white;
-	height: 150px;
-	width: 100%;
+  text-align: center;
+  background-color: white;
+  height: 150px;
+  width: 100%;
 }
 
 .box-info-container {
-	width: 100%;
-	padding: 15px;
+  width: 100%;
+  padding: 15px;
 }
 
 .box-info {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .description-headline {
-	padding-top: 20px;
+  padding-top: 20px;
 }
 
 h3 {
-	margin: 0;
-	font-size: 1.4em;
+  margin: 0;
+  font-size: 1.4em;
 }
 
 @media screen and (max-width: 600px) {
-    #headline-container {
-        width: auto;
-	}
-
-	.box-info-container {
-		padding-top: 5px;
-	}
-	
-	.box-info {
-		font-size: .9em;
-	}
+  #headline-container {
+    width: auto;
   }
+
+  .box-info-container {
+    padding-top: 5px;
+  }
+
+  .box-info {
+    font-size: 0.9em;
+  }
+}
